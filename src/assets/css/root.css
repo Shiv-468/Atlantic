@@ -1,0 +1,83 @@
+:root {
+    --font-size-xsm: 14px;
+    --font-size-sm: 16px;
+    --font-size-xmd: 17px;
+    --font-size-md: 18px;
+    --font-size-xlg: 24px;
+    --font-size-lg: 52px;
+    --font-size-xl: 60px;
+    --font-size-2xl: 80px;
+
+    --line-height-xsm: 21px;
+    --line-height-sm: 22px;
+    --line-height-xmd: 23px;
+    --line-height-md: 24px;
+    --line-height-xlg: 36px;
+    --line-height-lg: 62px;
+    --line-height-xl: 72px;
+    --line-height-2xl: 96px;
+}
+
+.font_size_xsm {
+    font-size: var(--font-size-xsm);
+}
+
+.font_size_sm {
+    font-size: var(--font-size-sm);
+}
+
+.font_size_xmd {
+    font-size: var(--font-size-xmd);
+}
+
+.font_size_md {
+    font-size: var(--font-size-md);
+}
+
+.font_size_xlg {
+    font-size: var(--font-size-xlg);
+}
+
+.font_size_lg {
+    font-size: var(--font-size-lg);
+}
+
+.font_size_xl {
+    font-size: var(--font-size-xl);
+}
+
+.font_size_2xl {
+    font-size: var(--font-size-2xl);
+}
+
+.line_height_xsm {
+    line-height: var(--line-height-xsm);
+}
+
+.line_height_sm {
+    line-height: var(--line-height-sm);
+}
+
+.line_height_xmd {
+    line-height: var(--line-height-xmd);
+}
+
+.line_height_xlg {
+    line-height: var(--line-height-xlg);
+}
+
+.line_height_lg {
+    line-height: var(--line-height-lg);
+}
+
+.line_height_xl {
+    line-height: var(--line-height-xl);
+}
+
+.line_height_2xl {
+    line-height: var(--line-height-2xl);
+}
+
+.font_weight_800 {
+    font-weight: 800;
+}

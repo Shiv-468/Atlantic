@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url(./assets/css/root.css);
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+.font_family_chivo{
+  font-family: "Chivo", sans-serif;
+}
+.font_family_DM_Sans{
+  font-family: "DM Sans", sans-serif;
+}
+.font_family_poppins{
+  font-family: "Poppins", sans-serif;
+}
+.max_width_1360{
+  max-width: 1360px;
+}
+.max_width_1140{
+  max-width: 1140px;
+}
+.max_width_800{
+  max-width: 800px;
+}
+.nav_padding{
+  padding-top: 14.75px;
+  padding-bottom: 14.75px;
+}
+.Hero_Bg{
+  background-image: url(./assets/images/webp/HeroBg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nav_bg{
+  background: #11100B1A;
+  backdrop-filter: blur(30px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.gap_28{
+  gap: 28px;
+}
+.gap_55{
+  gap: 55.5px;
 }
