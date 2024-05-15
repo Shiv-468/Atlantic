@@ -25,6 +25,24 @@
 .max_width_800{
   max-width: 800px;
 }
+.max_width_745{
+  max-width: 745px;
+}
+.max_width_680{
+  max-width: 680px;
+}
+.max_width_556{
+  max-width: 556px;
+}
+.max_width_570{
+  max-width: 570px;
+}
+.max_width_200{
+  max-width: 200px;
+}
+.section_margin_-1{
+  margin-top: -1px;
+}
 .nav_padding{
   padding-top: 14.75px;
   padding-bottom: 14.75px;
@@ -39,8 +57,59 @@
   background: #11100B1A;
   backdrop-filter: blur(30px);
 }
-
-
+.lubricant_red::after{
+  content: '';
+  position: absolute;
+  width: 110%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+  background-image: url(./assets/images/webp/Lubricant_red.png);
+  background-size:calc(100%);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.LubricantWhite{
+right: 0;
+bottom: 8%;
+}
+.Pioneer_Section_padding_top{
+  padding-top: 180px;
+}
+.Pioneer_Section_padding_bottom{
+  padding-bottom: 153px;
+}
+.pioneer_section_para_padding{
+  padding-top: 113px;
+}
+.common_button {
+  background: linear-gradient(180deg, #6A1012 0%, #D01F23 100%);
+  padding: 16px 24px;
+  box-shadow: 0px 2px 20.9px 0px #B61C1FCC;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #6A1012, #D01F23) 1;
+  transition: all 300ms linear;
+}
+.Read_button_margin_top{
+  margin-top: 45px;
+}
+.About_row_padding_top{
+  padding-top: 76px;
+}
+.About_row_padding_bottom{
+  padding-bottom: 289px;
+}
+.padding_botton_87{
+  padding-bottom: 87px;
+}
+.padding_bottom_27{
+  padding-bottom: 27px;
+}
+.Blog_Section_Padding_bottom{
+  padding-bottom: 262px;
+}
 
 
 
@@ -50,4 +119,18 @@
 }
 .gap_55{
   gap: 55.5px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:1400px) {
+  .LubricantWhite{
+    width: 63.66%;
+  }
 }

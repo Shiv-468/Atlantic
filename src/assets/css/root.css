@@ -16,8 +16,16 @@
     --line-height-lg: 62px;
     --line-height-xl: 72px;
     --line-height-2xl: 96px;
-}
 
+    --black:#080705;
+    --black2:#383838;
+}
+.bg_black{
+    background: var(--black);
+}
+.text_black{
+    color: var(--black2);
+}
 .font_size_xsm {
     font-size: var(--font-size-xsm);
 }
@@ -80,4 +88,7 @@
 
 .font_weight_800 {
     font-weight: 800;
+}
+.font_weight_900{
+    font-weight: 900;
 }
