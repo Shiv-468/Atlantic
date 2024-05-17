@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../assets/images/svg/logo.svg'
 const HeroSection = () => {
   return (
-   <section className='Hero_Bg min-vh-100 d-flex flex-column'>
+   <section className='Hero_Bg min_height_777 d-flex flex-column'>
     <nav className='nav_bg'>
      <div className=" container max_width_1360 nav_padding">
      <div className=" d-flex align-items-center justify-content-between">
@@ -24,6 +24,8 @@ const HeroSection = () => {
     <div className=" d-flex justify-content-between align-items-end pb-3">
     <h1 className=' mb-0 text-white max_width_800 font_weight_800 font_size_xl line_height_xl font_family_poppins text-uppercase'>Optimising your 
 Vehicle <span className=' fw-normal'>Performance</span></h1>
+<button className='common_button text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>explore</button>
+
     </div>
     </div>
     </div>
