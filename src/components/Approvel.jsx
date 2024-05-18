@@ -8,7 +8,7 @@ const Approvel = () => {
         <img src={AboutWhite} alt="AboutWhite" className=' w-100' />
       </div>
       <div className=" position-absolute BlueLiquid d-none d-lg-block z-0">
-        <img src={BlueLiquid} alt="BlueLiquid" className=' w-100' />
+        <img src={BlueLiquid} alt="BlueLiquid" className=' w-100 pointer_event_none' />
       </div>
       <div className=" container max_width_1140   z-3">
         <h2 className=' mb-0 font_size_lg line_height_lg font_weight_800 font_family_poppins text-white text-uppercase Approvel_section_padding_top'>OEM  <span className=' fw-normal fst-italic approvel_text z-1 position-relative'>Approvals</span></h2>

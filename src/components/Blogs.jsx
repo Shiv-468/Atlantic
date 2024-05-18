@@ -8,21 +8,21 @@ const Blogs = () => {
                 <div className="row justify-content-center">
                     <div className="col-12 col-sm-6 col-md-4">
                         <div className="last_card">
-                            <img src={CarImage} alt="CarImage" className=' w-100' />
+                            <img src={CarImage} alt="CarImage" className=' w-100 pointer_event_none' />
                             <p className=' mb-0 text-white text-capitalize fw-medium font_family_DM_Sans font_size_md line_height_md pt-3 padding_bottom_27'>Industrial lubricant oils ensure smooth machine operation by minimizing friction and wear.</p>
                             <button className='common_button text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>read more</button>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4">
                         <div className="last_card">
-                            <img src={CarImage} alt="CarImage" className=' w-100' />
+                            <img src={CarImage} alt="CarImage" className=' w-100 pointer_event_none' />
                             <p className=' mb-0 text-white text-capitalize fw-medium font_family_DM_Sans font_size_md line_height_md pt-3 padding_bottom_27'>Industrial lubricant oils ensure smooth machine operation by minimizing friction and wear.</p>
                             <button className='common_button text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>read more</button>
                         </div>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0">
                         <div className="last_card">
-                            <img src={CarImage} alt="CarImage" className=' w-100' />
+                            <img src={CarImage} alt="CarImage" className=' w-100 pointer_event_none' />
                             <p className=' mb-0 text-white text-capitalize fw-medium font_family_DM_Sans font_size_md line_height_md pt-3 padding_bottom_27'>Industrial lubricant oils ensure smooth machine operation by minimizing friction and wear.</p>
                             <button className='common_button text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>read more</button>
                         </div>

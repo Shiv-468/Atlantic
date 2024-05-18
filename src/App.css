@@ -65,7 +65,7 @@
 .Hero_Bg {
   background-image: url(./assets/images/webp/HeroBg.webp);
   background-size: cover;
-  min-height: 100vh;
+min-height: 777px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -146,16 +146,16 @@
   z-index: 0 !important;
   margin-bottom: -10%;
 }
-
+.pointer_event_none{
+  pointer-events: none;
+}
 .AboutWhite {
   bottom: 54px;
   height: 417px;
 }
-
 .min_height_777 {
   min-height: 777px;
 }
-
 .BlueLiquid {
   right: 0;
   top: 20%;
@@ -368,6 +368,9 @@ input {
 }
 
 @media (max-width:992px) {
+  .min_height_777 {
+    min-height: 100vh;
+  }
   .About_md_white {
     background-image: url(./assets/images/webp/AboutWhite.webp);
     background-size: cover;

@@ -15,12 +15,12 @@ const HeroSection = () => {
  }
  }
   return (
-    <section className='Hero_Bg min-vh-100 d-flex flex-column overflow-hidden'>
+    <section className='Hero_Bg min_height_777 d-flex flex-column overflow-hidden'>
       <nav className='nav_bg position-relative'>
         <div className=" container max_width_1360 nav_padding">
           <div className=" d-flex align-items-center justify-content-between">
             <div className=" d-flex align-items-center gap-3 gap_55 ">
-              <img src={Logo} alt="logo" />
+              <img src={Logo} alt="logo" className='pointer_event_none' />
               <ul className={`${data ? "navShow":"navhide"} gap-4 gap_28 d-flex align-items-center mobile_view ps-0 mb-0`}>
                 <li><a href="#" className=' text-white text-nowrap font_size_sm line_height_md font_family_DM_Sans fw-normal'>About Us</a></li>
                 <li class="nav-item dropdown">
@@ -44,7 +44,7 @@ const HeroSection = () => {
               <form action="/action_page.php" className=' d-flex align-items-center gap-3'>
                 <div className=" input_div d-flex align-items-center">
                   <span>
-                    <img src={SearchSvg} alt="SearchSvg" />
+                    <img src={SearchSvg} alt="SearchSvg" className='pointer_event_none' />
                   </span>
                   <input type="text" id='none' placeholder='Search' className=' py-3 font_size_xmd line_height_sm text-white' />
                 </div>

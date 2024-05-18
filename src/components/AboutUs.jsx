@@ -12,33 +12,33 @@ const AboutUs = () => {
     return (
         <section className=' bg_black position-relative section_margin_-1 About_section_padding_top'>
             <div className=" position-absolute z-0 Number_grid_image">
-                <img src={NumbersGridImage} alt="Number_grid_image" className=' w-100 z-0' />
+                <img src={NumbersGridImage} alt="Number_grid_image" className=' w-100 z-0 pointer_event_none' />
             </div>
             <div className=" position-absolute About_section_ellipse z-0">
-                <img src={AboutSectionEllipse} alt="AboutSectionEllipse" className=' w-100 z-0' />
+                <img src={AboutSectionEllipse} alt="AboutSectionEllipse" className=' w-100 z-0 pointer_event_none' />
             </div>
             <div className=" Semicircle position-relative d-none d-xl-block z-0">
                 <div className=" position-absolute d-none d-xl-block VW1 z-1">
-                    <img src={VW1} alt="VW1" />
+                    <img src={VW1} alt="VW1" className='pointer_event_none' />
                 </div>
                 <div className=" position-absolute d-none d-xl-block VW2 z-1">
-                    <img src={VW2} alt="VW2" />
+                    <img src={VW2} alt="VW2" className='pointer_event_none' />
 
                 </div>
                 <div className=" position-absolute d-none d-xl-block VW3 z-1">
-                    <img src={VW3} alt="VW3" />
+                    <img src={VW3} alt="VW3" className='pointer_event_none' />
                 </div>
                 <div className=" position-absolute d-none d-xl-block mini1 z-1">
-                    <img src={mini1} alt="mini1" />
+                    <img src={mini1} alt="mini1" className='pointer_event_none' />
                 </div>
                 <div className=" position-absolute d-none d-xl-block mini2 z-1">
-                    <img src={mini2} alt="mini2" />
+                    <img src={mini2} alt="mini2" className='pointer_event_none' />
                 </div>
                 <div className=" position-absolute d-none d-xl-block mercadise z-1">
-                    <img src={mercadise} alt="mercadise" />
+                    <img src={mercadise} alt="mercadise" className='pointer_event_none' />
                 </div>
                 <div className=" position-absolute d-none d-xl-block CAT z-1">
-                    <img src={CAT} alt="cat" />
+                    <img src={CAT} alt="cat" className='pointer_event_none' />
                 </div>
 
             </div>
