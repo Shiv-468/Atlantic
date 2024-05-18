@@ -340,6 +340,27 @@ input {
   text-shadow: 0px 12px 27.4px #850A0D;
 }
 
+.nav_links{
+  position: relative;
+  transition: all 400ms linear;
+  opacity: 80%;
+}
+.nav_links::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  transition: all 400ms linear;
+  height: 2px;
+  background: #FFFFFF;
+  bottom: -4px;
+  left: 0;
+}
+.nav_links:hover::after{
+  width: 100%;
+}
+.nav_links:hover{
+  opacity: 100%;
+}
 @media (min-width:768px) {
   .Blog_Section_Padding_bottom {
     padding-bottom: 162px;
