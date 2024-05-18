@@ -65,6 +65,7 @@
 .Hero_Bg {
   background-image: url(./assets/images/webp/HeroBg.webp);
   background-size: cover;
+  min-height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
 }
