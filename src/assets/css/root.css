@@ -17,10 +17,11 @@
     --line-height-xl: 52px;
     --line-height-2xl: 65px;
 
-    --black:#080705;
-    --black2:#383838;
+    --black: #080705;
+    --black2: #383838;
 }
-.bg_black{
+
+.bg_black {
     background: var(--black);
 }
 
@@ -87,7 +88,8 @@
 .font_weight_800 {
     font-weight: 800;
 }
-.font_weight_900{
+
+.font_weight_900 {
     font-weight: 900;
 }
 
@@ -101,7 +103,7 @@
         --font-size-lg: 39px;
         --font-size-xl: 44px;
         --font-size-2xl: 70px;
-    
+
         --line-height-xsm: 21px;
         --line-height-sm: 22px;
         --line-height-xmd: 23px;
@@ -112,6 +114,7 @@
         --line-height-2xl: 76px;
     }
 }
+
 @media (min-width:768px) {
     :root {
         --font-size-xsm: 14px;
@@ -122,7 +125,7 @@
         --font-size-lg: 52px;
         --font-size-xl: 60px;
         --font-size-2xl: 80px;
-    
+
         --line-height-xsm: 21px;
         --line-height-sm: 22px;
         --line-height-xmd: 23px;

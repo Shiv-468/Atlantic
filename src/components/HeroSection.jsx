@@ -19,20 +19,20 @@ const HeroSection = () => {
             </div>
             <input type="checkbox" id="menu_box" hidden />
             <label htmlFor="menu_box" className='menu_box'>
-            <span class="line"></span>
-                    <span class="line mt-10 mb-10"></span>
-                    <span class="line"></span>
+              <span class="line"></span>
+              <span class="line mt-10 mb-10"></span>
+              <span class="line"></span>
             </label>
             <div className=" d-flex align-items-center gap-3 d-none d-lg-block">
               <form action="/action_page.php" className=' d-flex align-items-center gap-3'>
-              <div className=" input_div d-flex align-items-center">
-                <span>
-                  <img src={SearchSvg} alt="SearchSvg" />
-                </span>
-              <input type="text" id='none' placeholder='Search' className=' py-3' />
-              </div>
-          <button className='common_button text-white text-nowrap font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>Get in touch</button>
-          </form>
+                <div className=" input_div d-flex align-items-center">
+                  <span>
+                    <img src={SearchSvg} alt="SearchSvg" />
+                  </span>
+                  <input type="text" id='none' placeholder='Search' className=' py-3' />
+                </div>
+                <button className='common_button text-white text-nowrap font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>Get in touch</button>
+              </form>
             </div>
           </div>
         </div>
@@ -43,7 +43,6 @@ const HeroSection = () => {
             <h1 className=' mb-0 text-white max_width_800 font_weight_800 font_size_xl line_height_xl font_family_poppins text-uppercase'>Optimising your
               Vehicle <span className=' fw-normal'>Performance</span></h1>
             <button className='common_button mt-4 mt-sm-0 text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>explore</button>
-
           </div>
         </div>
       </div>

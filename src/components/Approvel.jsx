@@ -16,7 +16,7 @@ const Approvel = () => {
           <div className=" col-12 col-lg-8 z-3 About_md_white pt-4 pb-4 pt-lg-0 pb-lg-0" >
             <div className="max_width_556 z-1">
               <p className=' mb-0 font_size_xlg line_height_xlg font_family_DM_Sans fw-normal text_black  '>At Atlantic Grease and Lubricants, we have <span className=' text-black fw-bold'>secured approvals</span> leading automobile manufacturers. Thus, we demonstrate our commitment to delivering the best possible outcomes to our customers.</p>
-             <p className=' mb-0 font_size_xlg line_height_xlg pt-3 font_family_DM_Sans fw-normal text_black '>Recognising the <span className=' text-black fw-bold'>significance of quality</span> to our valued customers, we uphold the utmost standards of excellence in all our endeavors.</p>
+              <p className=' mb-0 font_size_xlg line_height_xlg pt-3 font_family_DM_Sans fw-normal text_black '>Recognising the <span className=' text-black fw-bold'>significance of quality</span> to our valued customers, we uphold the utmost standards of excellence in all our endeavors.</p>
             </div>
           </div>
         </div>
