@@ -7,15 +7,15 @@ const Pioneers = () => {
       <div className=" position-absolute LubricantWhite d-none d-lg-block z-0">
         <img src={LubricantWhite} alt="LubricantWhite" className=' w-100 h-100' />
       </div>
-      <div className=" position-absolute Lubricant_gold z-0 max_width_720 d-none d-xl-block">
+      <div className=" position-absolute Lubricant_gold z-0 max_width_720 d-none d-xl-block" data-aos="fade-right">
         <img src={LubricantGold} alt="LubricantGold" className=' w-100' />
       </div>
       <div className=" container max_width_1140 ">
-        <div className=" d-flex justify-content-end ">
+        <div className=" d-flex justify-content-end " data-aos="fade-left">
           <h2 className=' mb-0 font_size_lg line_height_lg font_family_poppins font_weight_800 text-white text-uppercase max_width_745'>Pioneers of  <span className=' fst-italic fw-normal lubricant_red position-relative z-1'>Lubricants </span>
             <span className=' d-inline-block'>& Grease Manufacturing</span></h2>
         </div>
-        <div className=" row justify-content-end pioneer_section_para_padding">
+        <div className=" row justify-content-end pioneer_section_para_padding" data-aos="fade-left">
           <div className=" col-12 col-lg-8 d-flex justify-content-end Lubricant_md_White">
 
             <div className="max_width_556 z-1 pt-4 pt-lg-0 pb-lg-0 pb-4">

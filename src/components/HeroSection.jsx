@@ -16,7 +16,7 @@ const HeroSection = () => {
  }
   return (
     <section className='Hero_Bg min_height_777 d-flex flex-column overflow-hidden'>
-      <nav className='nav_bg position-relative'>
+      <nav className='nav_bg position-relative' data-aos="fade-down">
         <div className=" container max_width_1360 nav_padding">
           <div className=" d-flex align-items-center justify-content-between">
             <div className=" d-flex align-items-center gap-3 gap_55 ">
