@@ -4,18 +4,18 @@
     --font-size-xmd: 17px;
     --font-size-md: 18px;
     --font-size-xlg: 24px;
-    --font-size-lg: 52px;
-    --font-size-xl: 60px;
-    --font-size-2xl: 80px;
+    --font-size-lg: 36px;
+    --font-size-xl: 48px;
+    --font-size-2xl: 55px;
 
     --line-height-xsm: 21px;
     --line-height-sm: 22px;
     --line-height-xmd: 23px;
     --line-height-md: 24px;
     --line-height-xlg: 36px;
-    --line-height-lg: 62px;
-    --line-height-xl: 72px;
-    --line-height-2xl: 96px;
+    --line-height-lg: 43px;
+    --line-height-xl: 52px;
+    --line-height-2xl: 65px;
 
     --black:#080705;
     --black2:#383838;
@@ -23,9 +23,7 @@
 .bg_black{
     background: var(--black);
 }
-.text_black{
-    color: var(--black2);
-}
+
 .font_size_xsm {
     font-size: var(--font-size-xsm);
 }
@@ -91,4 +89,47 @@
 }
 .font_weight_900{
     font-weight: 900;
+}
+
+@media (min-width:576px) {
+    :root {
+        --font-size-xsm: 14px;
+        --font-size-sm: 16px;
+        --font-size-xmd: 17px;
+        --font-size-md: 18px;
+        --font-size-xlg: 24px;
+        --font-size-lg: 39px;
+        --font-size-xl: 44px;
+        --font-size-2xl: 70px;
+    
+        --line-height-xsm: 21px;
+        --line-height-sm: 22px;
+        --line-height-xmd: 23px;
+        --line-height-md: 24px;
+        --line-height-xlg: 36px;
+        --line-height-lg: 50px;
+        --line-height-xl: 53px;
+        --line-height-2xl: 76px;
+    }
+}
+@media (min-width:768px) {
+    :root {
+        --font-size-xsm: 14px;
+        --font-size-sm: 16px;
+        --font-size-xmd: 17px;
+        --font-size-md: 18px;
+        --font-size-xlg: 24px;
+        --font-size-lg: 52px;
+        --font-size-xl: 60px;
+        --font-size-2xl: 80px;
+    
+        --line-height-xsm: 21px;
+        --line-height-sm: 22px;
+        --line-height-xmd: 23px;
+        --line-height-md: 24px;
+        --line-height-xlg: 36px;
+        --line-height-lg: 62px;
+        --line-height-xl: 72px;
+        --line-height-2xl: 96px;
+    }
 }
