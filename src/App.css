@@ -65,7 +65,7 @@
 .Hero_Bg {
   background-image: url(./assets/images/webp/HeroBg.webp);
   background-size: cover;
-min-height: 777px;
+  min-height: 777px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -146,16 +146,27 @@ min-height: 777px;
   z-index: 0 !important;
   margin-bottom: -10%;
 }
-.pointer_event_none{
+
+.pointer_event_none {
   pointer-events: none;
 }
+
+.blog_date_text {
+  background: #B91C20;
+  padding: 12px;
+  top: 12px;
+  left: 12px;
+}
+
 .AboutWhite {
   bottom: 54px;
   height: 417px;
 }
+
 .min_height_777 {
   min-height: 777px;
 }
+
 .BlueLiquid {
   right: 0;
   top: 20%;
@@ -283,6 +294,7 @@ input {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .dropdown-toggle::after {
   content: "";
   background-image: url(./assets/images/svg/DropDownArrow.svg);
@@ -293,11 +305,12 @@ input {
   margin-left: 0;
   vertical-align: 0;
   content: "";
- border: none;
- width: 14px;
- height: 12px;
- margin-left: 4px;
+  border: none;
+  width: 14px;
+  height: 12px;
+  margin-left: 4px;
 }
+
 .approvel_text::after {
   content: '';
   position: absolute;
@@ -311,9 +324,11 @@ input {
   background-position: center;
   background-repeat: no-repeat;
 }
-.dropdown button{
+
+.dropdown button {
   background: transparent !important;
-  border: none; padding: 0;
+  border: none;
+  padding: 0;
 }
 
 .red_hover_text {
@@ -371,6 +386,7 @@ input {
   .min_height_777 {
     min-height: 100vh;
   }
+
   .About_md_white {
     background-image: url(./assets/images/webp/AboutWhite.webp);
     background-size: cover;
@@ -384,31 +400,36 @@ input {
     background-position: center;
     background-repeat: no-repeat;
   }
-  .mobile_view{
+
+  .mobile_view {
     display: flex;
     align-items: center !important;
     justify-content: center !important;
     flex-direction: column;
     top: 0;
     transition: all 700ms linear;
-    background:#757879;
+    background: #757879;
     min-height: 100vh;
     position: fixed;
     width: 100%;
   }
-  .overflow_hidden{
+
+  .overflow_hidden {
     overflow: hidden;
   }
-  .bar{
+
+  .bar {
     width: 26px;
     height: 3px;
     z-index: 99;
-    background:#B91C20;
+    background: #B91C20;
   }
-  .navShow{
+
+  .navShow {
     right: 0;
   }
-  .navhide{
+
+  .navhide {
     right: -100%;
   }
 }
@@ -417,9 +438,11 @@ input {
   .About_row_padding_top {
     padding-top: 76px;
   }
+
   .common_button {
     padding: 16px 24px;
   }
+
   .Blog_Section_Padding_bottom {
     padding-bottom: 262px;
   }
