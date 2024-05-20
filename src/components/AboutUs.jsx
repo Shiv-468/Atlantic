@@ -17,48 +17,32 @@ const AboutUs = () => {
             <div className=" position-absolute About_section_ellipse z-0" >
                 <img src={AboutSectionEllipse} alt="AboutSectionEllipse" className=' w-100 z-0 pointer_event_none' />
             </div>
-            <div className=" Semicircle position-relative d-none d-xl-block z-0" data-aos="zoom-in">
-                <div className=" position-absolute d-none d-xl-block VW1 z-1">
-                    <img src={VW1} alt="VW1" className='pointer_event_none' />
+            <div className=" Semicircle position-relative z-0" data-aos="zoom-in">
+                <div className=" position-absolute all_logos VW1 z-1">
+                    <img src={VW1} alt="VW1" className='pointer_event_none w-100' />
                 </div>
-                <div className=" position-absolute d-none d-xl-block VW2 z-1" data-aos="zoom-in">
-                    <img src={VW2} alt="VW2" className='pointer_event_none' />
+                <div className=" position-absolute all_logos VW2 z-1" data-aos="zoom-in">
+                    <img src={VW2} alt="VW2" className='pointer_event_none w-100' />
 
                 </div>
-                <div className=" position-absolute d-none d-xl-block VW3 z-1" data-aos="zoom-in">
-                    <img src={VW3} alt="VW3" className='pointer_event_none' />
+                <div className=" position-absolute all_logos VW3 z-1" data-aos="zoom-in">
+                    <img src={VW3} alt="VW3" className='pointer_event_none w-100' />
                 </div>
-                <div className=" position-absolute d-none d-xl-block mini1 z-1" data-aos="zoom-in">
-                    <img src={mini1} alt="mini1" className='pointer_event_none' />
+                <div className=" position-absolute all_logos mini1 z-1" data-aos="zoom-in">
+                    <img src={mini1} alt="mini1" className='pointer_event_none w-100' />
                 </div>
-                <div className=" position-absolute d-none d-xl-block mini2 z-1" data-aos="zoom-in">
-                    <img src={mini2} alt="mini2" className='pointer_event_none' />
+                <div className=" position-absolute all_logos mini2 z-1" data-aos="zoom-in">
+                    <img src={mini2} alt="mini2" className='pointer_event_none w-100' />
                 </div>
-                <div className=" position-absolute d-none d-xl-block mercadise z-1" data-aos="zoom-in">
-                    <img src={mercadise} alt="mercadise" className='pointer_event_none' />
+                <div className=" position-absolute all_logos mercadise z-1" data-aos="zoom-in">
+                    <img src={mercadise} alt="mercadise" className='pointer_event_none w-100' />
                 </div>
-                <div className=" position-absolute d-none d-xl-block CAT z-1" data-aos="zoom-in">
-                    <img src={CAT} alt="cat" className='pointer_event_none' />
+                <div className=" position-absolute all_logos CAT z-1" data-aos="zoom-in">
+                    <img src={CAT} alt="cat" className='pointer_event_none w-100' />
                 </div>
 
             </div>
             <div className="container max_width_1140 ">
-                <div className="row pb-5 pb-xl-0 d-xl-none">
-                    <div className="col-6 col-md-3 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-                        <img src={VW1} alt="VW1" />
-                    </div>
-                    <div className="col-6 col-md-3 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-                        <img src={mini2} alt="mini1" />
-                    </div>
-                    <div className="col-6 col-md-3 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-                        <img src={mercadise} alt="mercadise" />
-                    </div>
-                    <div className="col-6 col-md-3 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-                        <img src={CAT} alt="cat" />
-                    </div>
-
-                </div>
-
                 <div className=" d-flex justify-content-center margin_top">
                     <h2 className=' mb-0 max_width_570 text-white text-uppercase font_size_lg line_height_lg text-center font_weight_800 font_family_poppins z-3'>our <span className=' fw-normal fst-italic position-relative z-1 number_text'> numbers </span> say about us</h2>
                 </div>

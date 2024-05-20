@@ -38,7 +38,7 @@
 }
 
 .max_width_720 {
-  max-width: 720px;
+  max-width: 520px;
 }
 
 .max_width_556 {
@@ -64,8 +64,7 @@
 
 .Hero_Bg {
   background-image: url(./assets/images/webp/HeroBg.webp);
-  background-size: 100% 100%;
-  min-height: 777px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -90,7 +89,7 @@
 }
 
 .Lubricant_gold {
-  top: 30%;
+  top: 40%;
 }
 
 .Pioneer_Section_padding_top {
@@ -141,12 +140,14 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
-  min-height: 830px;
+  min-height: 260px;
   height: 100%;
   z-index: 0 !important;
   margin-bottom: -10%;
 }
-
+.all_logos{
+  max-width: 50px;
+}
 .pointer_event_none {
   pointer-events: none;
 }
@@ -161,10 +162,6 @@
 .AboutWhite {
   bottom: 54px;
   height: 417px;
-}
-
-.min_height_777 {
-  min-height: 777px;
 }
 
 .BlueLiquid {
@@ -246,10 +243,6 @@
 .mercadise {
   right: 43%;
   top: 32%;
-}
-
-.all_logos {
-  top: 0;
 }
 
 .input_div {
@@ -361,6 +354,7 @@ input {
 .nav_links:hover{
   opacity: 100%;
 }
+
 @media (min-width:768px) {
   .Blog_Section_Padding_bottom {
     padding-bottom: 162px;
@@ -401,12 +395,15 @@ input {
   .About_row_padding_bottom {
     padding-bottom: 89px;
   }
+  .Semicircle {
+    min-height: 460px;
+  }
+  .all_logos{
+    max-width: 80px;
+  }
 }
 
 @media (max-width:992px) {
-  .min_height_777 {
-    min-height: 100vh;
-  }
 
   .About_md_white {
     background-image: url(./assets/images/webp/AboutWhite.webp);
@@ -453,13 +450,19 @@ input {
   .navhide {
     right: -100%;
   }
+ 
 }
 
 @media (min-width:992px) {
   .About_row_padding_top {
     padding-top: 76px;
   }
-
+  .Semicircle {
+    min-height: 660px;
+  }
+  .all_logos{
+    max-width: 100px;
+  }
   .common_button {
     padding: 16px 24px;
   }
@@ -519,7 +522,12 @@ input {
   .gap_55 {
     gap: 55.5px !important;
   }
-
+  .Semicircle {
+    min-height: 820px;
+  }
+  .all_logos{
+    max-width: 100%;
+  }
   .BlueLiquid {
     right: 3%;
     top: 10%;
@@ -528,6 +536,12 @@ input {
 
   .margin_top {
     margin-top: -260px;
+  }
+  .max_width_720 {
+    max-width: 720px !important;
+  }
+  .Lubricant_gold {
+    top: 30%;
   }
 }
 

@@ -7,8 +7,8 @@ const Pioneers = () => {
       <div className=" position-absolute LubricantWhite d-none d-lg-block z-0">
         <img src={LubricantWhite} alt="LubricantWhite" className=' w-100 h-100' />
       </div>
-      <div className=" position-absolute Lubricant_gold z-0 max_width_720 d-none d-xl-block" data-aos="fade-right">
-        <img src={LubricantGold} alt="LubricantGold" className=' w-100' />
+      <div className=" position-absolute Lubricant_gold z-0 max_width_720 d-none d-lg-block" data-aos="fade-right">
+        <img src={LubricantGold} alt="LubricantGold" className=' w-100 ' />
       </div>
       <div className=" container max_width_1140 ">
         <div className=" d-flex justify-content-end " data-aos="fade-left">
