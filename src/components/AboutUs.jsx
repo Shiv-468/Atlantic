@@ -42,7 +42,7 @@ const AboutUs = () => {
                 </div>
 
             </div>
-            <div className="container max_width_1140 ">
+            <div className="container max_width_1140 " id='AboutUs'>
                 <div className=" d-flex justify-content-center margin_top">
                     <h2 className=' mb-0 max_width_570 text-white text-uppercase font_size_lg line_height_lg text-center font_weight_800 font_family_poppins z-3'>our <span className=' fw-normal fst-italic position-relative z-1 number_text'> numbers </span> say about us</h2>
                 </div>

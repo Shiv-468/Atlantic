@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className=" d-flex align-items-center gap-3 gap_55 ">
               <img src={Logo} alt="logo" className='pointer_event_none' />
               <ul className={`${data ? "navShow":"navhide"} gap-4 gap_28 d-flex align-items-center mobile_view ps-0 mb-0`}>
-                <li><a href="#" className=' text-white nav_links text-nowrap font_size_sm line_height_md font_family_DM_Sans fw-normal'>About Us</a></li>
+                <li><a href="#AboutUs" className=' text-white nav_links text-nowrap font_size_sm line_height_md font_family_DM_Sans fw-normal'>About Us</a></li>
                 <li class="nav-item dropdown nav_links">
                   <DropdownButton id="dropdown-basic-button" title="Categories">
                     <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
@@ -30,9 +30,9 @@ const HeroSection = () => {
                     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                   </DropdownButton>
                 </li>
-                <li><a href="#" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Services</a></li>
-                <li><a href="#" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Testimonials</a></li>
-                <li><a href="#" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Blogs</a></li>
+                <li><a href="#Services" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Services</a></li>
+                <li><a href="#Testimonials" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Testimonials</a></li>
+                <li><a href="#Blogs" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Blogs</a></li>
               </ul>
             </div>
             <div onClick={view} className="menuicon d-flex flex-column gap-2 d-lg-none">

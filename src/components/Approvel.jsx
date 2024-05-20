@@ -3,7 +3,7 @@ import AboutWhite from '../assets/images/webp/AboutWhite.webp'
 import BlueLiquid from '../assets/images/webp/BlueLiquid.webp'
 const Approvel = () => {
   return (
-    <section className=' bg_black position-relative pb_114 section_margin_-1'>
+    <section className=' bg_black position-relative pb_114 section_margin_-1' id='Testimonials'>
       <div className=" position-absolute AboutWhite d-none d-lg-block z-0">
         <img src={AboutWhite} alt="AboutWhite" className=' w-100' />
       </div>

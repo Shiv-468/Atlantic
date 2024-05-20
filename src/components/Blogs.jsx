@@ -2,7 +2,7 @@ import React from 'react'
 import CarImage from '../assets/images/webp/Car_img.webp'
 const Blogs = () => {
     return (
-        <section className=' bg_black section_margin_-1'>
+        <section className=' bg_black section_margin_-1' id='Blogs'>
             <div className=" container max_width_1140 Blog_Section_Padding_bottom Blog_Section_Padding_top z-3">
                 <h2 className=' mb-0 font_size_lg line_height_lg text-white text-uppercase font_weight_800 font_family_poppins text-center padding_botton_87 z-3'>explore our <span className=' fw-normal blog_text position-relative fst-italic z-3'> blogs</span></h2>
                 <div className="row justify-content-center">

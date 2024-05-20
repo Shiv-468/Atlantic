@@ -3,7 +3,7 @@ import LubricantWhite from '../assets/images/webp/Lubricant_white.webp'
 import LubricantGold from '../assets/images/webp/Lubricant.webp'
 const Pioneers = () => {
   return (
-    <section className='bg_black section_margin_-1 position-relative Pioneer_Section_padding_top Pioneer_Section_padding_bottom'>
+    <section className='bg_black section_margin_-1 position-relative Pioneer_Section_padding_top Pioneer_Section_padding_bottom' id='Services'>
       <div className=" position-absolute LubricantWhite d-none d-lg-block z-0">
         <img src={LubricantWhite} alt="LubricantWhite" className=' w-100 h-100' />
       </div>
