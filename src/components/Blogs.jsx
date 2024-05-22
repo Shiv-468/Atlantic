@@ -18,7 +18,7 @@ const Blogs = () => {
                             <button className='common_button text-white font_family_chivo font_size_sm line_height_md font_weight_900 text-uppercase '>read more</button>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-6 col-md-4" data-aos="zoom-in">
+                    <div className="col-12 col-sm-6 col-md-4 mt-4 mt-md-0" data-aos="zoom-in">
                         <div className="last_card">
                           <div className=" position-relative z-0">
                           <img src={CarImage} alt="CarImage" className=' w-100 pointer_event_none' />
