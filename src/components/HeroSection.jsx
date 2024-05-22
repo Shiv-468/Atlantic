@@ -35,7 +35,7 @@ const HeroSection = () => {
                 <li><a href="#Blogs" className=' text-white nav_links font_size_sm line_height_md font_family_DM_Sans fw-normal'>Blogs</a></li>
               </ul>
             </div>
-            <div onClick={view} className="menuicon d-flex flex-column gap-2 d-lg-none">
+            <div onClick={view} className={`${data ? "cross":"menu"}  d-flex flex-column gap-2 d-lg-none`}>
                     <span className="bar"></span>
                     <span className="bar"></span>
                     <span className="bar"></span>
