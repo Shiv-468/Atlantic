@@ -15,13 +15,13 @@ function App() {
     );
   }, [])
   return (
-    <>
+    <div className='overflow-hidden'>
      <HeroSection/> 
      <Pioneers/>
      <Approvel/>
      <AboutUs/>
      <Blogs/>
-    </>
+    </div>
   );
 }
 
